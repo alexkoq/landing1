@@ -1,9 +1,51 @@
+@font-face {
+  font-family: "GothaProReg";
+  src: url(../fonts/GothaProReg.otf);
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "GothaProLig";
+  src: url(../fonts/GothaProLig.otf);
+  font-style: normal;
+  font-weight: lighter; }
+@font-face {
+  font-family: "GothaProBol";
+  src: url(../fonts/GothaProBol.otf);
+  font-style: normal;
+  font-weight: bold; }
+@font-face {
+  font-family: "GothaProMed";
+  src: url(../fonts/GothaProMed.otf);
+  font-style: normal;
+  font-weight: medium; }
 body {
-  background-color: #000000; }
+  margin: 0 0 0 0;
+  font-family: "GothaProReg", sans-serif; }
+
+h4, h5, h6, h1, h2, h3 {
+  margin: 0; }
+
+ul {
+  margin: 0; }
+
+p {
+  margin: 0; }
 
 .head-wrap {
-  color: green;
-  width: 1000px;
-  height: 1000px; }
+  background-image: url(../img/background.png);
+  background-size: contain;
+  min-height: 930px; }
+  .head-wrap h1 {
+    font-size: 42px;
+    font-family: "GothaProLig", sans-serif;
+    font-weight: lighten;
+    color: #fff; }
+
+.logo {
+  background-image: url(../img/logo.png);
+  background-size: contain;
+  width: 254px;
+  height: 56px;
+  margin: 50px 0 130px 30px; }
 
 /*# sourceMappingURL=style.css.map */
