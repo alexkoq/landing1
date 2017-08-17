@@ -18,22 +18,21 @@
   src: url(../fonts/GothaProMed.otf)
   font-style: normal
   font-weight: medium
+
 $green: #4fff9e
 $blue: #5591ff
 body
   margin: 0 0 0 0
   font-family: 'GothaProReg',sans-serif
 
-h4,h5,h6,h1,h2,h3
-  margin: 0
-ul
-  margin: 0
-p
+h4,h5,h6,h1,h2,h3,ul,p
   margin: 0
 
 .head-wrap
-  background-image: url(../img/background.png)
-  background-size: contain
+  background:
+    image: url(../img/background.png)
+    size: cover
+    position: center -130px
   min-height: 930px
 
   h1
@@ -49,4 +48,74 @@ p
   width: 254px
   height: 56px
   margin: 50px 0 130px 30px
+
+.top-advatages-wrap
+  margin-top: 20px
+
+.top-advatages
+  padding-top: 30px
+
 .graph
+  background-image: url(../img/01.png)
+  background-size: contain
+  width: 32px
+  height: 32px
+  margin-left: 15px
+
+.star
+  background-image: url(../img/02.png)
+  background-size: contain
+  width: 32px
+  height: 32px
+  margin-left: 15px
+
+.prise
+  background-image: url(../img/03.png)
+  background-size: contain
+  width: 37px
+  height: 35px
+  margin-right: -5px
+  margin-left: 15px
+
+.top-advant
+  color: #fff
+
+  p
+    margin-left: 25px
+
+    span
+      font-family: 'GothaProBol',sans-serif
+      font-weight: bold
+    font:
+      size: 18px
+
+.trading-wrap
+  min-height: 700px
+
+.trade-img-wrap
+  background-image: url(../img/responsive-web-design-1030x579.png)
+  background-size: contain
+  height: 579px
+  width: 1030px
+  position: relative
+  top: -230px
+
+.trading-text
+  text-align: center
+  position: relative
+  top: -200px
+  h2
+    padding-bottom: 35px
+    font:
+      size: 42px
+      family: 'GothaProLig',sans-serif
+      weight: lighten
+  p
+    font:
+      size: 18px
+      family: 'GothaProLig',sans-serif
+      weight: lighten
+    line-height: 1.5em
+  span
+    font-family: 'GothaProBol',sans-serif
+    font-weight: bold

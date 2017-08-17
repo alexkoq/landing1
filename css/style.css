@@ -22,18 +22,13 @@ body {
   margin: 0 0 0 0;
   font-family: "GothaProReg", sans-serif; }
 
-h4, h5, h6, h1, h2, h3 {
-  margin: 0; }
-
-ul {
-  margin: 0; }
-
-p {
+h4, h5, h6, h1, h2, h3, ul, p {
   margin: 0; }
 
 .head-wrap {
   background-image: url(../img/background.png);
-  background-size: contain;
+  background-size: cover;
+  background-position: center -130px;
   min-height: 930px; }
   .head-wrap h1 {
     font-size: 42px;
@@ -47,5 +42,71 @@ p {
   width: 254px;
   height: 56px;
   margin: 50px 0 130px 30px; }
+
+.top-advatages-wrap {
+  margin-top: 20px; }
+
+.top-advatages {
+  padding-top: 30px; }
+
+.graph {
+  background-image: url(../img/01.png);
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  margin-left: 15px; }
+
+.star {
+  background-image: url(../img/02.png);
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  margin-left: 15px; }
+
+.prise {
+  background-image: url(../img/03.png);
+  background-size: contain;
+  width: 37px;
+  height: 35px;
+  margin-right: -5px;
+  margin-left: 15px; }
+
+.top-advant {
+  color: #fff; }
+  .top-advant p {
+    margin-left: 25px;
+    font-size: 18px; }
+    .top-advant p span {
+      font-family: "GothaProBol", sans-serif;
+      font-weight: bold; }
+
+.trading-wrap {
+  min-height: 700px; }
+
+.trade-img-wrap {
+  background-image: url(../img/responsive-web-design-1030x579.png);
+  background-size: contain;
+  height: 579px;
+  width: 1030px;
+  position: relative;
+  top: -230px; }
+
+.trading-text {
+  text-align: center;
+  position: relative;
+  top: -200px; }
+  .trading-text h2 {
+    padding-bottom: 35px;
+    font-size: 42px;
+    font-family: "GothaProLig", sans-serif;
+    font-weight: lighten; }
+  .trading-text p {
+    font-size: 18px;
+    font-family: "GothaProLig", sans-serif;
+    font-weight: lighten;
+    line-height: 1.5em; }
+  .trading-text span {
+    font-family: "GothaProBol", sans-serif;
+    font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
