@@ -81,20 +81,21 @@ h4, h5, h6, h1, h2, h3, ul, p {
       font-weight: bold; }
 
 .trading-wrap {
-  min-height: 700px; }
+  min-height: 700px;
+  max-height: 700px; }
 
 .trade-img-wrap {
   background-image: url(../img/responsive-web-design-1030x579.png);
   background-size: contain;
   height: 579px;
-  width: 1030px;
+  width: 1030px; }
+
+.trading-up {
   position: relative;
   top: -230px; }
 
 .trading-text {
-  text-align: center;
-  position: relative;
-  top: -200px; }
+  text-align: center; }
   .trading-text h2 {
     padding-bottom: 35px;
     font-size: 42px;
@@ -108,5 +109,31 @@ h4, h5, h6, h1, h2, h3, ul, p {
   .trading-text span {
     font-family: "GothaProBol", sans-serif;
     font-weight: bold; }
+
+.os {
+  padding-top: 50px;
+  max-width: 900px;
+  margin: 0 auto; }
+
+.windows {
+  background-image: url(../img/windows.png);
+  background-size: contain;
+  width: 107px;
+  height: 32px;
+  margin: 0 auto; }
+
+.android {
+  background-image: url(../img/android.png);
+  background-size: contain;
+  width: 98px;
+  height: 36px;
+  margin: 0 auto; }
+
+.ios {
+  background-image: url(../img/ios.png);
+  background-size: contain;
+  width: 111px;
+  height: 36px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
