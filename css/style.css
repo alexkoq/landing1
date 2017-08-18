@@ -33,7 +33,7 @@ h4, h5, h6, h1, h2, h3, ul, p {
   .head-wrap h1 {
     font-size: 42px;
     font-family: "GothaProLig", sans-serif;
-    font-weight: lighten;
+    font-weight: 300;
     color: #fff; }
 
 .logo {
@@ -100,11 +100,11 @@ h4, h5, h6, h1, h2, h3, ul, p {
     padding-bottom: 35px;
     font-size: 42px;
     font-family: "GothaProLig", sans-serif;
-    font-weight: lighten; }
+    font-weight: 300; }
   .trading-text p {
     font-size: 18px;
     font-family: "GothaProLig", sans-serif;
-    font-weight: lighten;
+    font-weight: 300;
     line-height: 1.5em; }
   .trading-text span {
     font-family: "GothaProBol", sans-serif;
@@ -112,7 +112,7 @@ h4, h5, h6, h1, h2, h3, ul, p {
 
 .os {
   padding-top: 50px;
-  max-width: 900px;
+  max-width: 500px;
   margin: 0 auto; }
 
 .windows {
@@ -135,5 +135,14 @@ h4, h5, h6, h1, h2, h3, ul, p {
   width: 111px;
   height: 36px;
   margin: 0 auto; }
+
+.advantages-wrap {
+  border-top: 1px solid #000;
+  padding-top: 100px; }
+  .advantages-wrap h3 {
+    text-align: center;
+    font-size: 42px;
+    font-family: "GothaProLig", sans-serif;
+    font-weight: 300; }
 
 /*# sourceMappingURL=style.css.map */
