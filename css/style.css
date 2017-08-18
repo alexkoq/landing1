@@ -179,4 +179,32 @@ h4, h5, h6, h1, h2, h3, ul, p {
   width: 43px;
   height: 43px; }
 
+.arrow {
+  background-image: url(../img/005.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.comp {
+  background-image: url(../img/006.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.bell {
+  background-image: url(../img/007.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.rocket {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
 /*# sourceMappingURL=style.css.map */
