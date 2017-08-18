@@ -35,6 +35,9 @@ h4, h5, h6, h1, h2, h3, ul, p {
     font-family: "GothaProLig", sans-serif;
     font-weight: 300;
     color: #fff; }
+    .head-wrap h1 span {
+      font-family: "GothaProReg", sans-serif;
+      font-weight: normal; }
 
 .logo {
   background-image: url(../img/logo.png);
@@ -59,6 +62,7 @@ h4, h5, h6, h1, h2, h3, ul, p {
 .star {
   background-image: url(../img/02.png);
   background-size: contain;
+  background-repeat: no-repeat;
   width: 32px;
   height: 32px;
   margin-left: 15px; }
