@@ -44,7 +44,7 @@ h4,h5,h6,h1,h2,h3,ul,p
     color: #fff
     span
       font:
-        family: 'GothaProReg',sans-serif 
+        family: 'GothaProReg',sans-serif
         weight: normal
 
 .logo
@@ -164,3 +164,23 @@ h4,h5,h6,h1,h2,h3,ul,p
       size: 42px
       family: 'GothaProLig',sans-serif
       weight: 300
+  p
+    text-align: left
+@mixin background ($path,$width:43px,$height:43px)
+  background-image: $path
+  background-size: contain
+  background-repeat: no-repeat
+  width: $width
+  height: $height
+
+.cloud
+  @include background(url(../img/001.png))
+
+.corner-arrow
+  @include background(url(../img/002.png))
+
+.side-arows
+  @include background(url(../img/003.png))
+
+.shield
+  @include background(url(../img/004.png))
