@@ -143,13 +143,28 @@ h4, h5, h6, h1, h2, h3, ul, p {
 .advantages-wrap {
   border-top: 1px solid #000;
   padding-top: 100px; }
+  .advantages-wrap ul {
+    padding-left: 20px;
+    padding-top: 20px; }
+    .advantages-wrap ul li p {
+      padding-top: 0px; }
   .advantages-wrap h3 {
     text-align: center;
+    padding-bottom: 60px;
     font-size: 42px;
     font-family: "GothaProLig", sans-serif;
     font-weight: 300; }
   .advantages-wrap p {
-    text-align: left; }
+    text-align: left;
+    font-size: 14px;
+    padding-top: 20px;
+    line-height: 1.3em; }
+  .advantages-wrap h4 {
+    font-size: 18px;
+    padding-top: 20px; }
+
+.first-row {
+  padding-bottom: 45px; }
 
 .cloud {
   background-image: url(../img/001.png);
