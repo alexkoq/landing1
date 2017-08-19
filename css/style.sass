@@ -21,10 +21,13 @@
 
 $green: #4fff9e
 $blue: #5591ff
+$font-reg: 'GothaProReg'
+$font-light: 'GothaProLig'
+$font-bold: 'GothaProBol'
 
 body
   margin: 0 0 0 0
-  font-family: 'GothaProReg',sans-serif
+  font-family: $font-light,sans-serif
 
 h4,h5,h6,h1,h2,h3,ul,p
   margin: 0
@@ -39,12 +42,12 @@ h4,h5,h6,h1,h2,h3,ul,p
   h1
     font:
       size: 42px
-      family: 'GothaProLig',sans-serif
+      family: $font-light,sans-serif
       weight: 300
     color: #fff
     span
       font:
-        family: 'GothaProReg',sans-serif
+        family: $font-reg,sans-serif
         weight: normal
 
 .logo
@@ -90,7 +93,7 @@ h4,h5,h6,h1,h2,h3,ul,p
     margin-left: 25px
 
     span
-      font-family: 'GothaProBol',sans-serif
+      font-family: $font-bold,sans-serif
       font-weight: bold
     font:
       size: 18px
@@ -117,16 +120,16 @@ h4,h5,h6,h1,h2,h3,ul,p
     padding-bottom: 35px
     font:
       size: 42px
-      family: 'GothaProLig',sans-serif
+      family: $font-light,sans-serif
       weight: 300
   p
     font:
       size: 18px
-      family: 'GothaProLig',sans-serif
+      family: $font-light,sans-serif
       weight: 300
     line-height: 1.5em
   span
-    font-family: 'GothaProBol',sans-serif
+    font-family: $font-light,sans-serif
     font-weight: bold
 
 .os
@@ -169,7 +172,7 @@ h4,h5,h6,h1,h2,h3,ul,p
     padding-bottom: 60px
     font:
       size: 42px
-      family: 'GothaProLig',sans-serif
+      family: $font-light,sans-serif
       weight: 300
   p
     text-align: left
@@ -181,7 +184,8 @@ h4,h5,h6,h1,h2,h3,ul,p
     padding-top: 20px
 
 .first-row
-  padding-bottom: 45px
+  padding: 0px 20px 45px 20px
+
 
 @mixin background ($path,$width:43px,$height:43px)
   background-image: $path
@@ -213,3 +217,20 @@ h4,h5,h6,h1,h2,h3,ul,p
 
 .rocket
   @include background(url(../img/008.png))
+
+.otkr-button-wrap
+  button
+    border: 0px solid transparent
+    border-radius: 3px
+    background-color: $blue
+    width: 250px
+    height: 50px
+    vertical-align: center
+    a
+      color: #fff
+      text-decoration: none
+      line-height: 1.3em
+      font:
+        family: $font-reg,sans-serif
+        weight: normal
+        size: 16px
