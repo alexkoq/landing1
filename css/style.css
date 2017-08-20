@@ -18,9 +18,15 @@
   src: url(../fonts/GothaProMed.otf);
   font-style: normal;
   font-weight: medium; }
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
 body {
   margin: 0 0 0 0;
-  font-family: "GothaProLig", sans-serif; }
+  font-family: "GothaProLig", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 h4, h5, h6, h1, h2, h3, ul, p {
   margin: 0; }
@@ -93,7 +99,7 @@ h4, h5, h6, h1, h2, h3, ul, p {
   background-image: url(../img/responsive-web-design-1030x579.png);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 579px;
+  min-height: 579px;
   max-width: 1030px; }
 
 .trading-up {
@@ -226,7 +232,9 @@ h4, h5, h6, h1, h2, h3, ul, p {
 
 .otkr-button-wrap {
   margin-bottom: 100px;
-  margin-top: 70px; }
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto; }
   .otkr-button-wrap button {
     border: 0px solid transparent;
     border-radius: 3px;
