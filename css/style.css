@@ -248,4 +248,123 @@ h4, h5, h6, h1, h2, h3, ul, p {
   background-size: cover;
   min-height: 526px; }
 
+.visa {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.mastercard {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.maestro {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.yadengi {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.webmoney {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.qiwi {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.swift {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.london {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.dowjones {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.nasdaq {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.diners {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.borse {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.links {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5em; }
+  .links a {
+    text-decoration: none; }
+    .links a:hover {
+      text-decoration: underline; }
+
+.age-18 {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.clean-100 {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.ssl {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.bottom-text-wrap {
+  text-align: center;
+  font-size: 14px;
+  line-height: 2em; }
+
 /*# sourceMappingURL=style.css.map */
