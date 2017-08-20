@@ -28,6 +28,7 @@ h4, h5, h6, h1, h2, h3, ul, p {
 .head-wrap {
   background-image: url(../img/background.png);
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center -130px;
   min-height: 930px; }
   .head-wrap h1 {
@@ -91,8 +92,9 @@ h4, h5, h6, h1, h2, h3, ul, p {
 .trade-img-wrap {
   background-image: url(../img/responsive-web-design-1030x579.png);
   background-size: contain;
+  background-repeat: no-repeat;
   height: 579px;
-  width: 1030px; }
+  max-width: 1030px; }
 
 .trading-up {
   position: relative;
