@@ -258,6 +258,12 @@ h4, h5, h6, h1, h2, h3, ul, p {
   background-size: cover;
   min-height: 526px; }
 
+.payments-wrap {
+  padding-top: 100px; }
+
+.first-line {
+  padding-bottom: 35px; }
+
 .visa {
   background-image: url(../img/1.png);
   background-size: contain;
@@ -319,7 +325,9 @@ h4, h5, h6, h1, h2, h3, ul, p {
   background-size: contain;
   background-repeat: no-repeat;
   width: 86px;
-  height: 13px; }
+  height: 13px;
+  -ms-flex-item-align: center;
+      align-self: center; }
 
 .nasdaq {
   background-image: url(../img/10.png);
@@ -346,6 +354,9 @@ h4, h5, h6, h1, h2, h3, ul, p {
   text-align: center;
   font-size: 16px;
   line-height: 1.5em; }
+  .links-wrap {
+    padding-top: 80px;
+    padding-bottom: 60px; }
   .links a {
     text-decoration: none; }
     .links a:hover {
@@ -375,6 +386,10 @@ h4, h5, h6, h1, h2, h3, ul, p {
 .bottom-text-wrap {
   text-align: center;
   font-size: 14px;
-  line-height: 2em; }
+  line-height: 2em;
+  padding-top: 55px; }
+
+.copyright {
+  padding-top: 40px; }
 
 /*# sourceMappingURL=style.css.map */
