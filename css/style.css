@@ -175,6 +175,10 @@ h4, h5, h6, h1, h2, h3, ul, p {
 .first-row {
   padding: 0px 20px 45px 20px; }
 
+.second-row {
+  padding-left: 15px;
+  padding-right: 15px; }
+
 .cloud {
   background-image: url(../img/001.png);
   background-size: contain;
@@ -234,15 +238,16 @@ h4, h5, h6, h1, h2, h3, ul, p {
 .otkr-button-wrap {
   margin-bottom: 100px;
   margin-top: 70px;
-  margin-left: auto;
-  margin-right: auto; }
+  -ms-flex-item-align: center;
+      align-self: center; }
   .otkr-button-wrap button {
     border: 0px solid transparent;
-    border-radius: 3px;
+    border-radius: 4px;
     background-color: #5591ff;
-    width: 250px;
+    width: 220px;
     height: 50px;
-    vertical-align: center;
+    -ms-flex-item-align: center;
+        align-self: center;
     -webkit-box-shadow: 0px 3px 3px rgba(55, 98, 176, 0.5);
             box-shadow: 0px 3px 3px rgba(55, 98, 176, 0.5); }
     .otkr-button-wrap button a {
@@ -250,7 +255,7 @@ h4, h5, h6, h1, h2, h3, ul, p {
       text-decoration: none;
       line-height: 1.3em;
       font-family: "GothaProReg", sans-serif;
-      font-weight: normal;
+      font-weight: bold;
       font-size: 16px; }
 
 .expert {
@@ -393,5 +398,34 @@ h4, h5, h6, h1, h2, h3, ul, p {
 .copyright {
   padding-top: 40px;
   padding-bottom: 30px; }
+
+@media (max-width: 991px) {
+  .trade-img-wrap {
+    min-height: 400px; }
+
+  .trading-up {
+    position: relative;
+    top: -250px; }
+
+  .trading-wrap {
+    min-height: 500px;
+    max-height: 500px; } }
+@media (max-width: 767px) {
+  .trade-img-wrap {
+    min-height: 300px; }
+
+  .trading-up {
+    position: relative;
+    top: -210px; }
+
+  .trading-wrap {
+    min-height: 500px;
+    max-height: 500px; }
+
+  .android, .ios {
+    margin-top: 15px; } }
+@media (max-width: 576px) {
+  .top-advatages-wrap {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
