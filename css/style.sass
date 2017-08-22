@@ -261,47 +261,11 @@ h4,h5,h6,h1,h2,h3,ul,p
     display: block
     margin: 0 auto
 
-
-
 .first-line
   padding-bottom: 35px
 
-// .visa
-//   align-self: center
-//
-// .mastercard
-//   align-self: center
-//
-// .maestro
-//   align-self: center
-//
-// .yadengi
-//   align-self: center
-//
-// .webmoney
-//   align-self: center
-//
-// .qiwi
-//   align-self: center
-//
-// .swift
-//   align-self: center
-//
-// .london
-//   align-self: center
-//
-// .dowjones
-//   align-self: center
-//
-// .nasdaq
-//   align-self: center
-//
-// .diners
-//   align-self: center
-//
-// .borse
-//   align-self: center
-
+.london,.dowjones,.nasdaq
+  align-self: center
 
 .links-wrap
 
@@ -340,6 +304,13 @@ h4,h5,h6,h1,h2,h3,ul,p
   padding-top: 40px
   padding-bottom: 30px
 
+@media (max-width: 1200px)
+  .diners,.borse
+    margin-top: 20px
+  .clean-100
+    margin-left: 50px
+    margin-right: 50px
+
 @media (max-width: 991px)
   .trade-img-wrap
     min-height: 350px
@@ -354,6 +325,16 @@ h4,h5,h6,h1,h2,h3,ul,p
 
   .webmoney,.qiwi,.swift,.diners,.borse
     margin-top: 20px
+
+  .diners
+    img
+      margin-left: auto
+      margin-right: none
+
+  .borse
+    img
+      margin-right: auto
+      margin-left: none
 
   .advantages-wrap
     p
@@ -391,3 +372,15 @@ h4,h5,h6,h1,h2,h3,ul,p
   .trading-wrap
     min-height: 550px
     max-height: 550px
+
+  .head-wrap
+    h1
+      font-size: 32px
+
+  .trading-text
+    h2
+      font-size: 36px
+
+  .advantages-wrap
+    h3
+      font-size: 36px
