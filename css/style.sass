@@ -116,7 +116,7 @@ h4,h5,h6,h1,h2,h3,ul,p
 
 .trading-up
   position: relative
-  top: -290px
+  top: -200px
 
 .trading-text
   text-align: center
@@ -263,27 +263,35 @@ h4,h5,h6,h1,h2,h3,ul,p
 
 .visa
   @include background(url(../img/1.png),67px,22px)
+  align-self: center
 
 .mastercard
   @include background(url(../img/2.png),52px,40px)
+  align-self: center
 
 .maestro
   @include background(url(../img/3.png),52px,40px)
+  align-self: center
 
 .yadengi
   @include background(url(../img/4.png),90px,35px)
+  align-self: center
 
 .webmoney
   @include background(url(../img/5.png),123px,31px)
+  align-self: center
 
 .qiwi
   @include background(url(../img/6.png),88px,34px)
+  align-self: center
 
 .swift
   @include background(url(../img/7.png),82px,32px)
+  align-self: center
 
 .london
   @include background(url(../img/8.png),129px,32px)
+  align-self: center
 
 .dowjones
   @include background(url(../img/9.png),86px,13px)
@@ -291,18 +299,25 @@ h4,h5,h6,h1,h2,h3,ul,p
 
 .nasdaq
   @include background(url(../img/10.png),111px,31px)
+  align-self: center
 
 .diners
   @include background(url(../img/11.png),115px,31px)
+  align-self: center
 
 .borse
   @include background(url(../img/12.png),135px,32px)
+  align-self: center
+
 
 .links-wrap
 
 .links
   text-align: center
-  font-size: 16px
+  font:
+    size: 16px
+    family: $font-reg,sans-serif
+    weight: normal
   line-height: 1.5em
   &-wrap
     padding-top: 80px
@@ -314,6 +329,7 @@ h4,h5,h6,h1,h2,h3,ul,p
 
 .age-18
   @include background(url(../img/18.png),41px,41px)
+  align-self: center
 
 .clean-100
   @include background(url(../img/clean.png),50px,50px)
@@ -342,6 +358,24 @@ h4,h5,h6,h1,h2,h3,ul,p
   .trading-wrap
     min-height: 500px
     max-height: 500px
+
+  .webmoney,.qiwi,.swift,.diners,.borse
+    margin-top: 20px
+
+  .advantages-wrap
+    p
+      padding-top: 10px
+      padding-bottom: 20px
+    ul
+      padding-bottom: 20px
+      li
+        p
+          padding-bottom: 0px
+
+
+  .first-row
+    padding-bottom: 20px
+
 @media (max-width: 767px)
   .trade-img-wrap
     min-height: 300px
@@ -360,3 +394,9 @@ h4,h5,h6,h1,h2,h3,ul,p
 @media (max-width: 576px)
   .top-advatages-wrap
     display: none
+  .first-line
+    position: relative
+    left: 5px
+  .trading-wrap
+    min-height: 550px
+    max-height: 550px

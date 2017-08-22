@@ -105,7 +105,7 @@ h4, h5, h6, h1, h2, h3, ul, p {
 
 .trading-up {
   position: relative;
-  top: -290px; }
+  top: -200px; }
 
 .trading-text {
   text-align: center; }
@@ -275,56 +275,72 @@ h4, h5, h6, h1, h2, h3, ul, p {
   background-size: contain;
   background-repeat: no-repeat;
   width: 67px;
-  height: 22px; }
+  height: 22px;
+  -ms-flex-item-align: center;
+      align-self: center; }
 
 .mastercard {
   background-image: url(../img/2.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 52px;
-  height: 40px; }
+  height: 40px;
+  -ms-flex-item-align: center;
+      align-self: center; }
 
 .maestro {
   background-image: url(../img/3.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 52px;
-  height: 40px; }
+  height: 40px;
+  -ms-flex-item-align: center;
+      align-self: center; }
 
 .yadengi {
   background-image: url(../img/4.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 90px;
-  height: 35px; }
+  height: 35px;
+  -ms-flex-item-align: center;
+      align-self: center; }
 
 .webmoney {
   background-image: url(../img/5.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 123px;
-  height: 31px; }
+  height: 31px;
+  -ms-flex-item-align: center;
+      align-self: center; }
 
 .qiwi {
   background-image: url(../img/6.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 88px;
-  height: 34px; }
+  height: 34px;
+  -ms-flex-item-align: center;
+      align-self: center; }
 
 .swift {
   background-image: url(../img/7.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 82px;
-  height: 32px; }
+  height: 32px;
+  -ms-flex-item-align: center;
+      align-self: center; }
 
 .london {
   background-image: url(../img/8.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 129px;
-  height: 32px; }
+  height: 32px;
+  -ms-flex-item-align: center;
+      align-self: center; }
 
 .dowjones {
   background-image: url(../img/9.png);
@@ -340,25 +356,33 @@ h4, h5, h6, h1, h2, h3, ul, p {
   background-size: contain;
   background-repeat: no-repeat;
   width: 111px;
-  height: 31px; }
+  height: 31px;
+  -ms-flex-item-align: center;
+      align-self: center; }
 
 .diners {
   background-image: url(../img/11.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 115px;
-  height: 31px; }
+  height: 31px;
+  -ms-flex-item-align: center;
+      align-self: center; }
 
 .borse {
   background-image: url(../img/12.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 135px;
-  height: 32px; }
+  height: 32px;
+  -ms-flex-item-align: center;
+      align-self: center; }
 
 .links {
   text-align: center;
   font-size: 16px;
+  font-family: "GothaProReg", sans-serif;
+  font-weight: normal;
   line-height: 1.5em; }
   .links-wrap {
     padding-top: 80px;
@@ -373,7 +397,9 @@ h4, h5, h6, h1, h2, h3, ul, p {
   background-size: contain;
   background-repeat: no-repeat;
   width: 41px;
-  height: 41px; }
+  height: 41px;
+  -ms-flex-item-align: center;
+      align-self: center; }
 
 .clean-100 {
   background-image: url(../img/clean.png);
@@ -409,7 +435,21 @@ h4, h5, h6, h1, h2, h3, ul, p {
 
   .trading-wrap {
     min-height: 500px;
-    max-height: 500px; } }
+    max-height: 500px; }
+
+  .webmoney, .qiwi, .swift, .diners, .borse {
+    margin-top: 20px; }
+
+  .advantages-wrap p {
+    padding-top: 10px;
+    padding-bottom: 20px; }
+  .advantages-wrap ul {
+    padding-bottom: 20px; }
+    .advantages-wrap ul li p {
+      padding-bottom: 0px; }
+
+  .first-row {
+    padding-bottom: 20px; } }
 @media (max-width: 767px) {
   .trade-img-wrap {
     min-height: 300px; }
@@ -426,6 +466,14 @@ h4, h5, h6, h1, h2, h3, ul, p {
     margin-top: 15px; } }
 @media (max-width: 576px) {
   .top-advatages-wrap {
-    display: none; } }
+    display: none; }
+
+  .first-line {
+    position: relative;
+    left: 5px; }
+
+  .trading-wrap {
+    min-height: 550px;
+    max-height: 550px; } }
 
 /*# sourceMappingURL=style.css.map */
