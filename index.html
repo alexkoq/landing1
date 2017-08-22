@@ -4,7 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="css/bootstrap-grid.min.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css" type="text/css"/>
+	<script src="script/wow.min.js"></script>
+
 	<title></title>
 </head>
 <body>
@@ -21,7 +24,7 @@
 					</div>
 					<div class="col-xl-12">
 						<div class="top-advatages-wrap">
-						<div class="row top-advatages">
+						<div class="row top-advatages wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">
 							<div class="graph">
 							</div>
 							<div class="top-advant">
@@ -30,7 +33,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="row top-advatages">
+						<div class="row top-advatages wow fadeIn" data-wow-duration="2s" data-wow-delay="1.3s">
 							<div class="star">
 							</div>
 							<div class="top-advant">
@@ -39,7 +42,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="row top-advatages">
+						<div class="row top-advatages wow fadeIn" data-wow-duration="2s" data-wow-delay="1.6s">
 							<div class="prise">
 							</div>
 							<div class="top-advant">
@@ -98,7 +101,7 @@
 				<h3>Преимущества платформы 770capital</h3>
 			</div>
 		</div>
-		<div class="row first-row">
+		<div class="row first-row wow fadeIn" data-wow-duration="2s">
 			<div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
 				<div class="col-xl-12">
 					<div class="cloud">
@@ -148,7 +151,7 @@
 							</div>
 							</div>
 			</div>
-			<div class="row second-row">
+			<div class="row second-row wow fadeIn" data-wow-duration="2s">
 				<div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
 					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 						<div class="arrow">
@@ -309,5 +312,17 @@
 	</div>
 </div>
 </footer>
+<script>
+wow = new WOW(
+			 {
+			 boxClass:     'wow',      // default
+			 animateClass: 'animated', // default
+			 offset:       0,          // default
+			 mobile:       false,       // default
+			 live:         true        // default
+		 }
+		 )
+		 wow.init();
+</script>
 </body>
 </html>
